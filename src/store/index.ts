@@ -5,5 +5,5 @@ interface DumbState {
 }
 
 export const useDumbStore = create<DumbState>(() => ({
-  dumbText: 'Hallo from Zustand',
+  dumbText: 'Hi from Zustand',
 }));
